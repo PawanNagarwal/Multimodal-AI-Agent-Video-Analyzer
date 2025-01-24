@@ -18,9 +18,9 @@ API_KEY = os.getenv("GOOGLE_API_KEY")
 if API_KEY:
     genai.configure(api_key=API_KEY)
 
-st.set_page_config(layout="centered", page_title="Video Analyzer using Multimodal AI Agent", page_icon="🎥")
+st.set_page_config(layout="centered", page_title="🎬 Advaced Video Analyzer using Multimodal AI", page_icon="🎥")
 
-st.title("Video Analyzer")
+st.title("🎬 Advaced Video Analyzer using Multimodal AI")
 
 @st.cache_resource
 def initialize_agent():
